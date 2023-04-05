@@ -1,0 +1,1 @@
+cmd_/home/pi/Code/project/project-device-driver/src/mymodule.mod := printf '%s\n'   mymodule.o | awk '!x[$$0]++ { print("/home/pi/Code/project/project-device-driver/src/"$$0) }' > /home/pi/Code/project/project-device-driver/src/mymodule.mod

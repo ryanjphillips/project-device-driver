@@ -8,7 +8,7 @@ MODULE_AUTHOR("Ryan Phillips");
 MODULE_DESCRIPTION("Hello Worlds LKM");
 
 static int __init ModuleInit(void) {
-	printk("Hellow Kernal\n");
+	printk("Hello Kernel\n");
 	return 0;
 }
 
@@ -18,4 +18,4 @@ static void __exit ModuleExit(void) {
 }
 
 module_init(ModuleInit);
-module_exit(ModuleInit);
+module_exit(ModuleExit);

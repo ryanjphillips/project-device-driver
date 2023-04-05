@@ -1,1 +1,1 @@
-cmd_/home/pi/Code/project/project-device-driver/src/Module.symvers := sed 's/ko$$/o/' /home/pi/Code/project/project-device-driver/src/modules.order | scripts/mod/modpost -m -a   -o /home/pi/Code/project/project-device-driver/src/Module.symvers -e -i Module.symvers   -T -
+cmd_/home/pi/Code/project/project-device-driver/src/Module.symvers :=  sed 's/ko$$/o/'  /home/pi/Code/project/project-device-driver/src/modules.order | scripts/mod/modpost -m -a    -o /home/pi/Code/project/project-device-driver/src/Module.symvers -e -i Module.symvers -T - 
