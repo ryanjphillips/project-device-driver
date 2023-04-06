@@ -1,0 +1,1 @@
+cmd_/home/pi/Code/project/project-device-driver/src/part4/gpio_driver.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pi/Code/project/project-device-driver/src/part4/gpio_driver.ko /home/pi/Code/project/project-device-driver/src/part4/gpio_driver.o /home/pi/Code/project/project-device-driver/src/part4/gpio_driver.mod.o;  true

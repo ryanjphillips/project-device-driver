@@ -50,7 +50,5 @@ static void __exit ModuleExit(void) {
 	printk("Goodbye, Kernel\n");
 }
 
-#define MYMAJOR 90
-
 module_init(ModuleInit);
 module_exit(ModuleExit);
