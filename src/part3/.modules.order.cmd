@@ -1,1 +1,0 @@
-cmd_/home/pi/Code/project/project-device-driver/src/part3/modules.order := {   echo /home/pi/Code/project/project-device-driver/src/part3/read_write.ko; :; } > /home/pi/Code/project/project-device-driver/src/part3/modules.order

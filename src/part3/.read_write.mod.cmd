@@ -1,1 +1,0 @@
-cmd_/home/pi/Code/project/project-device-driver/src/part3/read_write.mod := printf '%s\n'   read_write.o | awk '!x[$$0]++ { print("/home/pi/Code/project/project-device-driver/src/part3/"$$0) }' > /home/pi/Code/project/project-device-driver/src/part3/read_write.mod

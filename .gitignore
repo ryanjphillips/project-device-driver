@@ -1,4 +1,4 @@
-!/src/part*/*.c
+!src/part*/*.c
 !/src/part*/Makefile
 !/src/*.c
 !/src/Makefile

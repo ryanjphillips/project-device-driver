@@ -1,1 +1,0 @@
-cmd_/home/pi/Code/project/project-device-driver/src/part2/dev_nr.mod := printf '%s\n'   dev_nr.o | awk '!x[$$0]++ { print("/home/pi/Code/project/project-device-driver/src/part2/"$$0) }' > /home/pi/Code/project/project-device-driver/src/part2/dev_nr.mod

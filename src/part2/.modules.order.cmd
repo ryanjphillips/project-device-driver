@@ -1,1 +1,0 @@
-cmd_/home/pi/Code/project/project-device-driver/src/part2/modules.order := {   echo /home/pi/Code/project/project-device-driver/src/part2/dev_nr.ko; :; } > /home/pi/Code/project/project-device-driver/src/part2/modules.order
