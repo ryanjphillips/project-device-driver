@@ -1,1 +1,0 @@
-cmd_/home/pi/Code/project/project-device-driver/src/mymodule.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pi/Code/project/project-device-driver/src/mymodule.ko /home/pi/Code/project/project-device-driver/src/mymodule.o /home/pi/Code/project/project-device-driver/src/mymodule.mod.o;  true
